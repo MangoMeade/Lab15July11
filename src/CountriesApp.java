@@ -3,6 +3,7 @@ import java.util.Scanner;
 /**
  * Created by aibar on 7/11/2017.
  */
+//App reads and writes to a text file
 public class CountriesApp extends CountriesTextFile{
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);

@@ -2,3 +2,5 @@ Italy
 Uganda
 Australia
 Canada
+Chile
+Peru
