@@ -13,6 +13,10 @@ public interface CountryDao {
     public Country getCountry(int number);
     public void addCountry(Country country);
     public void removeCountry(Country country);
+    public void read();
+    public void write(Country country);
+    public void write(CountryDao countryDao);
+
 
 
 }

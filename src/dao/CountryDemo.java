@@ -1,18 +1,15 @@
 package dao;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
 import static dao.Validator.getString;
 
 /**
  * Created by aibar on 7/20/2017.
  */
+//Program is run in this class
 public class CountryDemo {
     public static void main(String[] args) {
         runProgram();
-
 
     }
 
@@ -23,7 +20,8 @@ public class CountryDemo {
 
         Country country = new Country();
         CountryDao countryDao = new CountryDaoImpl(country);
-        CountriesTextFile writeCountry = new CountriesTextFile();
+        CountryDao dao = DaoFactory.getDaoInstance(CountryDao.FILE_DAO);
+
 
         while (loop.equalsIgnoreCase("y")) {
 
@@ -32,9 +30,9 @@ public class CountryDemo {
             counter += 1;
 
             countryDao.addCountry(new Country(country.getName(), country.getNumber()));
-            writeCountry.writeToFile(countryDao);
+            dao.write(countryDao);
             loop = getString(scnr, "Another country?");
         }
-        writeCountry.readFromFile();
+        dao.read();
     }
 }

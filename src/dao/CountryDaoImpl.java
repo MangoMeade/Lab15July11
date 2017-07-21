@@ -37,4 +37,19 @@ public class CountryDaoImpl implements CountryDao{
         System.out.println("Country: Roll No " + country.getNumber()
                 +", deleted from database");
     }
+
+    @Override
+    public void read() {
+
+    }
+
+    @Override
+    public void write(Country country) {
+
+    }
+
+    @Override
+    public void write(CountryDao countryDao) {
+
+    }
 }
