@@ -11,6 +11,12 @@ import static dao.Validator.getString;
  */
 public class CountryDemo {
     public static void main(String[] args) {
+        runProgram();
+
+
+    }
+
+    private static void runProgram() {
         Scanner scnr = new Scanner(System.in);
         String loop = "y";
         int counter = 1;
@@ -18,7 +24,6 @@ public class CountryDemo {
         Country country = new Country();
         CountryDao countryDao = new CountryDaoImpl(country);
         CountriesTextFile writeCountry = new CountriesTextFile();
-
 
         while (loop.equalsIgnoreCase("y")) {
 
@@ -31,7 +36,5 @@ public class CountryDemo {
             loop = getString(scnr, "Another country?");
         }
         writeCountry.readFromFile();
-
-
     }
 }

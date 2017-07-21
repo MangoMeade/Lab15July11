@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd04bce-61d2-4da6-b12a-c4ce338fad63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/countries.txt" afterPath="$PROJECT_DIR$/countries.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/CountryDemo.java" afterPath="$PROJECT_DIR$/src/dao/CountryDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountriesTextFile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CountriesTextFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/CountriesTextFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="99">
               <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding />
             </state>
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountryDemo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CountryDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/CountryDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="303">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +99,8 @@
         <option value="$PROJECT_DIR$/src/dao/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/dao/CountryDaoImpl.java" />
         <option value="$PROJECT_DIR$/countries.txt" />
-        <option value="$PROJECT_DIR$/src/dao/CountryDemo.java" />
         <option value="$PROJECT_DIR$/src/dao/CountriesTextFile.java" />
+        <option value="$PROJECT_DIR$/src/dao/CountryDemo.java" />
       </list>
     </option>
   </component>
@@ -177,6 +176,9 @@
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -725,16 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/CountryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/countries.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -745,9 +737,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/CountriesTextFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="99">
           <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/CountryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
